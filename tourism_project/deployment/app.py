@@ -21,7 +21,7 @@ DurationOfPitch = st.number_input("DurationOfPitch",min_value=5.0,max_value=127.
 NumberOfPersonVisiting = st.number_input("NumberOfPersonVisiting",min_value=1,max_value=5,value=1)
 NumberOfFollowups = st.number_input("NumberOfFollowups",min_value=1,max_value=6,value=1)
 PreferredPropertyStar = st.number_input("PreferredPropertyStar",min_value=3,max_value=5,value=3)
-NumberOfTrips =  st.number_input("NumberOfTrips",min_value=1,max_value=,value=)
+NumberOfTrips =  st.number_input("NumberOfTrips",min_value=1,max_value=22,value=1)
 Passport = st.number_input("Passport",min_value=1,max_value=22,value=1)
 PitchSatisfactionScore = st.number_input("PitchSatisfactionScore",min_value=1,max_value=5,value=1)
 OwnCar = st.selectbox("OwnCar",["0", "1"])
